@@ -1,0 +1,336 @@
+.circular{
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+
+}
+.circular_inferior{
+    -moz-border-radius: 0px 0px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 0px 0px 15px 15px;
+    /* para Opera */
+    border-radius: 0px 0px 15px 15px;
+}
+body{
+    background-image: url('../imagen/azul.jpg');
+    width: 100%;
+
+}
+.principal{
+    border: 3px solid red; 
+    margin: 5%;
+    background-image: url('../imagen/ff.png');
+    background-color: #4CAF50;
+    border-color: black;
+    padding: 3%;
+
+}
+.titulo{
+    text-align: center;
+    margin: 0%;
+    color: white;
+    font-family: serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5%;
+}
+.titulo2{
+    text-align: center;
+    margin: 0%;
+    color: white;
+    font-family: serif;
+    font-size: 35px;
+    font-weight: bold;
+    background-color:#003F7C; 
+}
+ul {
+    border: 3px solid black;
+    padding: 1%;
+    background-color: #003F7C;
+    width: 84%;
+    z-index: 99;
+}
+li{
+    display: inline;
+}
+li a {
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #F8B631;
+    color: white;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+li a:active {
+    background-color: #F8B631;
+    color: white;
+    text-decoration: none;
+}
+.tabla{
+    background-color: #f1f1f1;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+}
+.normal {
+    width: 30%;
+    border: 1px none #000;
+    border-collapse: collapse;
+    text-align: left;
+}
+.normal th, .normal td {
+    border: 1px none #000;
+    padding: 5%;
+}
+.fecha{
+    width: 30px;
+}
+.region{
+    width: 150px;
+}
+.normal2 {
+    width: 40%;
+    border: 1px none #000;
+    border-collapse: collapse;
+    text-align: left;
+}
+.normal2 th, .normal td {
+    border: 1px none #000;
+    padding: 5%;
+}
+.submit{
+    background-color: #003F7C;
+    display: block;
+    color: white;
+    margin-top: 5%;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.submit:hover {
+    background-color: #003F7C;
+    color: white;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.normal3 {
+
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+
+}
+.normal3 th, .normal2 td {
+    border: 1px solid #000;
+    padding: 2%;
+
+}
+.color1{
+    background-color: #F8B631;
+}
+.color2{
+    background-color: #003F7C;
+}
+.boton{
+    /*    display: block;*/
+    float: right; 
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #555;
+    border-radius: 5%;
+    font-family: serif;
+    font-size: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.boton:hover {
+    background-color: darkgray;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+.producto{
+    width: 50%;
+    height: 50%;
+}
+.contacto{
+    color: white;
+}
+.ferreteria{
+    width: 50%;
+    height: 50%;
+    -moz-border-radius: 50%;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 50%;
+    /* para Opera */
+    border-radius: 50%;
+}
+.icono{
+    width: 10%;
+    height: 10%;
+}
+.form_font{
+    color: white;
+}
+.input_boton{
+    border: none;
+    background-color: #003F7C;
+    color: white;
+    padding: 10%;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.input_boton:hover{
+    background-color: #F8B631;
+    color: white;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.submit2{
+    background-color: #003F7C;
+    display: block;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+    width: 30%;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.submit2:hover {
+    background-color: #F8B631;
+    color: white;
+    text-decoration: none;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.espacio{
+    margin-bottom: 5%;
+}
+.tabla2{
+    background-color: #000;
+    padding: 3%;
+    opacity: 0.5;
+}
+.imagenlistar{
+    width: 200px;
+    height: 200px;
+}
+.imagenlistar2{
+    width: 200px;
+    height: 200px;
+    margin: 10%;
+}
+.tabla3{
+    border: 3px solid black;
+    background-color: #f1f1f1;
+    padding: 1%;
+    margin: 4%;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;   
+}
+.pagina{
+    background-color: #003F7C;
+    display: block;
+    color: white;
+    padding: 2%;
+    width: 100%;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.pagina:hover {
+    background-color: #F8B631;
+    color: white;
+    text-decoration: none;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.servidor_imagen{
+    height: auto;
+    width: auto;
+}
+.global {
+    height: 300px;
+    width: 900px;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    overflow-y: scroll;
+    -moz-border-radius: 15px 15px 15px 15px;
+    /*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+    /* para Opera */
+    border-radius: 15px 15px 15px 15px;
+}
+.borde{
+    border: 3px solid black;
+}
